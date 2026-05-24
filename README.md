@@ -38,19 +38,6 @@ RGB → Grayscale (OpenCV)
 **Critical parameter:** Minimum area A_min = 15 pixels
 Justification: filters noise (<~0.15 mm²) while preserving valid bubbles
 
-**Scale (mm/px):**
-
-$$\text{scale}_{x,y} = \frac{W,H_{\text{physical}}\ (mm)}{W,H_{\text{image}}\ (px)}$$
-
-| Variety    | Physical dimensions (mm) | Scale (mm/px)   |
-|:----------:|:------------------------:|:---------------:|
-| Sourdough  | 140 × 120                | 0.140 × 0.120   |
-| Wheat      | 115 × 115                | 0.115 × 0.115   |
-| Brown      | 115 × 100                | 0.115 × 0.100   |
-| Croissant  | 120 × 65                 | 0.120 × 0.065   |
-| Baguette   | 75 × 75                  | 0.075 × 0.075   |
-| Homemade   | 120 × 110                | 0.120 × 0.110   |
-
 **ROI (region of interest):** r_ROI = 0.44 × min(h, w), centered → minimizes border artefacts
 
 ### 3.2 Module II: Statistical analysis
@@ -109,8 +96,7 @@ Dynamics (Moore neighbourhood):
 2. R → Q (refractory recovers)
 3. Q → E if (≥1 neighbor E) or spontaneously with p = 0.002
 
-Avalanche: number of excited cells at time t
-
+Avalanche:
 $$P(S) \sim S^{-\gamma_{\text{GH}}} \quad \text{with} \quad \gamma_{\text{GH}} \approx 1.5 \text{ at criticality}$$
 ---
 ## 4. MAIN RESULTS
