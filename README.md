@@ -126,6 +126,7 @@ Each figure panels: Original | Watershed segmentation | Log–log distribution
 ### 4.3 Greenberg–Hastings model
 GH result: γ_GH ≈ 1.5 — consistent with theoretical criticality
 Final state (200×200 grid) and avalanche size distribution compared to neural reference γ = 1.5.
+
 ---
 
 ## 5. CONCLUSIONS
