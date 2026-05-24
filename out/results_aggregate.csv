@@ -1,0 +1,7 @@
+Variety,N_total,N_fit,Robust,gamma_MLE,gamma_CI_low,gamma_CI_high,gamma_Molnar,Delta_gamma,D_KS,R_LR,p_LR,mu_LN,sigma_LN,Porosity_mean_pct,Porosity_std_pct,xmin_mm2_mean,Regime,LR_Interpretation
+Baguette,2661,2661,Yes,1.6650,1.6445,1.6888,1.2650,0.4000,0.0624,-5.6556,0.0000,-0.9687,1.2608,36.44,5.07,0.0844,Supercritical,Log-Normal preferred
+Brown,13173,13173,Yes,1.9556,1.9426,1.9697,1.6370,0.3186,0.0845,-18.7496,0.0000,-0.7109,0.8183,47.14,4.75,0.1725,Supercritical,Log-Normal preferred
+Croissant,3194,3194,Yes,1.5675,1.5561,1.5838,1.2890,0.2785,0.1276,-14.0483,0.0000,-0.3835,1.2011,41.40,10.82,0.1170,Supercritical,Log-Normal preferred
+Homemade,4953,4953,Yes,1.7546,1.7370,1.7718,1.6380,0.1166,0.1070,-14.8727,0.0000,-0.2942,0.9690,27.74,14.07,0.1980,Supercritical,Log-Normal preferred
+Sourdough,2925,2925,Yes,1.6608,1.6384,1.6804,1.3310,0.3298,0.0586,-6.1839,0.0000,0.1351,1.2674,38.03,6.55,0.2520,Supercritical,Log-Normal preferred
+Wheat,10574,10122,Yes,2.0023,1.9902,2.0166,1.8580,0.1443,0.0883,-17.3117,0.0000,-0.6199,0.7564,33.78,8.52,0.1984,Supercritical,Log-Normal preferred
